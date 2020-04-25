@@ -36,7 +36,6 @@ public class LaboratorioIA {
         String cadena = "";
 
         System.out.println("Hola soy Panchito, el mejor bot predictivo.");
-        System.out.println("Panchito el bot, hecho por: Ivan Arango, Erick Contreras, Andres Diaz, Carlos Lam, Carlos Morales");
         
         do {
             System.out.println("Ingresa una frase:");
@@ -69,12 +68,6 @@ public class LaboratorioIA {
             System.out.println("\nPara dejar de asignar frases ingresa una cadena vacia\n");
         } while (true);
 
-        System.out.println("Panchito el bot, hecho por: "
-                + "\nIvan Arango        1158116"
-                + "\nErick Contreras    1009017"
-                + "\nAndres Diaz        1315916"
-                + "\nCarlos Lam         1193916"
-                + "\nCarlos Morales     1171316");
     }
 
     static private String[] filtrarPalabras(String[] caracteristicas) {
